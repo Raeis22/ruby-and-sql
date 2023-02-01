@@ -9,6 +9,8 @@ Contact.destroy_all
 # **************************
 
 # - Insert and read contact data for companies in the database
+puts Company.all.count
+puts Contact.all.count
 
 # 1. insert new rows in the contacts table with relationship to a company
 
